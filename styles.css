@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: burlywood;
+    font-family: Arial, Helvetica, sans-serif;
+}
+main {
+    width: 70%;
+    height: 80vh;
+    background-color: #fff;
+    margin: 4rem auto;
+    display: grid;
+    grid-template-columns: 23rem 1fr;
+    overflow: hidden;
+}
+.grid-1 {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 2rem;
+}
+.grid-1 header {
+    color: #fff;
+    font-size: larger;
+    margin-bottom: 18.5rem;
+}
+.grid-1 header p {
+    font-size: x-large;
+}
+.line {
+    border-bottom: 3px solid lightsalmon;
+    width: 3.5rem;
+    margin-top: 1rem;
+}
+footer {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+footer img {
+    width: 4rem;
+    height: 4rem;
+    border-radius: 50%;
+}
+footer p {
+    color: #fff;
+    font-weight: lighter;
+}
+/*section 2 styling begins*/
+.wrapper {
+    padding: 2.5rem;
+}
+.text {
+    font-size: large;
+    line-height: 1.7rem;
+}
+.text-1::first-letter{
+    font-weight: 700;
+    font-size: 2rem;
+}
+.text-2 {
+    margin-top: 1.5rem;
+}
+.date {
+    border-top: 3px solid whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 0;
+}
+.date-img {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+}
+.day {
+    margin-top: 1.5rem;
+    padding: 0 2rem;
+}
+.day span {
+    font-weight: 700;
+}
